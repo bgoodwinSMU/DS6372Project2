@@ -1,0 +1,18 @@
+---
+title: "Project 2"
+author: "Kebur Fantahun, Ben Goodwin, Andre Mauldin"
+date: "3/30/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This markdown document contains the collective work of group one for MSDS6372, Spring 2021
+
+## Global Notes:
+
+# We have elected to use dataset 2,	https://archive.ics.uci.edu/ml/datasets/Adult, Predicting if someone makes over 50k
+# All inference will be based on these data
+
