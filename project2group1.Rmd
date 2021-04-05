@@ -208,6 +208,7 @@ lreg<-train(income~.,data=dtrain,method="glm",family=binomial(),trControl=fitCon
 summary(lreg)
 varImp(lreg)
 
+
 lreg_pred<-predict(lreg,dtest)
 confusionMatrix(lreg_pred,dtest$income)
 
